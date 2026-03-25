@@ -1,0 +1,52 @@
+﻿{
+  "placeName": "Rogue Survivor",
+  "placeId": 16419475782,
+  "exportedAt": "2026-03-25",
+  "source": "Roblox Studio via MCP",
+  "configSnapshot": {
+    "activeWeaponTemplates": 3,
+    "activeEnemyTemplates": 2,
+    "projectCleanupChildren": 6,
+    "gameBricksSpawnMarkers": 4
+  },
+  "scriptCoverage": [
+    {
+      "studioPath": "ServerScriptService.RunConfig",
+      "className": "ModuleScript",
+      "lineCount": 202,
+      "status": "exported",
+      "localPath": "studio_export/game/ServerScriptService/RunConfig.lua"
+    },
+    {
+      "studioPath": "Workspace.Round.EnemyVariantDirector",
+      "className": "Script",
+      "lineCount": 611,
+      "status": "tracked_only",
+      "localPath": null
+    },
+    {
+      "studioPath": "ServerScriptService.GameDirector",
+      "className": "Script",
+      "lineCount": 1744,
+      "status": "tracked_only",
+      "localPath": null
+    },
+    {
+      "studioPath": "StarterPlayer.StarterPlayerScripts.RunClient",
+      "className": "LocalScript",
+      "lineCount": 3831,
+      "status": "tracked_only",
+      "localPath": null
+    }
+  ],
+  "configManifests": [
+    {
+      "name": "weapon_templates",
+      "localPath": "studio_export/config/weapon_templates.json"
+    },
+    {
+      "name": "enemy_archetypes",
+      "localPath": "studio_export/config/enemy_archetypes.json"
+    }
+  ]
+}

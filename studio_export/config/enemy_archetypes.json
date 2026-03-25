@@ -1,0 +1,73 @@
+﻿{
+  "waveScaling": {
+    "healthScaleFormula": "1 + (wave - 1) * 0.16",
+    "damageScaleFormula": "1 + (wave - 1) * 0.08"
+  },
+  "promotionRules": {
+    "mage": "wave >= 2 or totalSpawnedEnemies >= 4",
+    "lancer": "wave >= 3 or totalSpawnedEnemies >= 6",
+    "elite": "wave >= 4 or totalSpawnedEnemies >= 14"
+  },
+  "archetypes": {
+    "raider": {
+      "displayName": "Raider",
+      "walkSpeed": 9,
+      "maxHealth": 95,
+      "meleeDamage": 10,
+      "meleeRange": 4.5,
+      "meleeCooldown": 1.1,
+      "weaponStyle": "blade"
+    },
+    "mage": {
+      "displayName": "Mage",
+      "walkSpeed": 7,
+      "maxHealth": 72,
+      "meleeDamage": 6,
+      "meleeRange": 3,
+      "meleeCooldown": 1.4,
+      "desiredRange": 28,
+      "retreatRange": 16,
+      "castRange": 64,
+      "castCooldown": 2.6,
+      "projectileDamage": 14,
+      "projectileSpeed": 72,
+      "projectileSize": 0.9,
+      "weaponStyle": "staff"
+    },
+    "lancer": {
+      "displayName": "Lancer",
+      "walkSpeed": 10,
+      "maxHealth": 118,
+      "meleeDamage": 12,
+      "chargeDamage": 22,
+      "meleeRange": 5,
+      "meleeCooldown": 0.95,
+      "chargeRangeMin": 12,
+      "chargeRangeMax": 68,
+      "chargeCooldown": 4.4,
+      "chargeSpeed": 52,
+      "chargeDuration": 0.7,
+      "weaponStyle": "spear"
+    },
+    "elite": {
+      "displayName": "Elite Guard",
+      "walkSpeed": 11,
+      "maxHealth": 260,
+      "meleeDamage": 18,
+      "chargeDamage": 30,
+      "meleeRange": 5.5,
+      "meleeCooldown": 0.85,
+      "chargeRangeMin": 10,
+      "chargeRangeMax": 72,
+      "chargeCooldown": 3.5,
+      "chargeSpeed": 60,
+      "chargeDuration": 0.9,
+      "castRange": 72,
+      "castCooldown": 4.2,
+      "projectileDamage": 20,
+      "projectileSpeed": 80,
+      "projectileSize": 1.2,
+      "weaponStyle": "elite"
+    }
+  }
+}
